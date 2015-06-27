@@ -1,6 +1,6 @@
-// ƒ‰ƒfƒBƒAƒ‹ƒ\[ƒg:0ˆÈãMAX–¢–‚Ì10ŒÂ‚Ìƒf[ƒ^‚ğƒ\[ƒg‚·‚é
+// ãƒ©ãƒ‡ã‚£ã‚¢ãƒ«ã‚½ãƒ¼ãƒˆ:0ä»¥ä¸ŠMAXæœªæº€ã®10å€‹ã®ãƒ‡ãƒ¼ã‚¿ã‚’ã‚½ãƒ¼ãƒˆã™ã‚‹
 #include <stdio.h>
-#define N 10	//—v‘f”
+#define N 10	//è¦ç´ æ•°
 #define MAX 1000
 
 void swap(int *p, int *q){
@@ -15,7 +15,7 @@ int main(void) {
 	int array[N];
 	int tmp;
 	int i, j;
-	int swapped;	// ‰½ŒÌbool‚ªg‚¦‚È‚¢‚ñ‚¾‚æƒNƒ\‚ª
+	int swapped;	// ä½•æ•…boolãŒä½¿ãˆãªã„ã‚“ã ã‚ˆã‚¯ã‚½ãŒ
 	int denominator=1;
 	for(i=0;i<N;i++)
 		scanf("%d", &array[i]);

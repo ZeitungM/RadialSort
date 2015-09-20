@@ -1,5 +1,6 @@
 // ラディアルソート:0以上MAX未満の10個のデータをソートする
 #include <stdio.h>
+#include <stdbool.h>
 #define N 10	//要素数
 #define MAX 1000
 
@@ -15,7 +16,8 @@ int main(void) {
 	int array[N];
 	int tmp;
 	int i, j;
-	int swapped;	// 何故boolが使えないんだよクソが
+	//int swapped;	// 何故boolが使えないんだよクソが ← stdbool.h インクルードしてなかったからだよバカが
+	bool swapped;
 	int denominator=1;
 	for(i=0;i<N;i++)
 		scanf("%d", &array[i]);
@@ -27,11 +29,11 @@ int main(void) {
 
 	while(denominator<MAX){
 		for(j=N-1;j>0;j--){
-			swapped=0;
+			swapped = false;
 			for(i=0;i<j;i++){
 				if((array[i]/denominator)%10>(array[i+1]/denominator)%10){
 					swap( &array[i], &array[i+1]);
-					swapped=1;
+					swapped=true;
 				}
 			}
 			if(!swapped) break;

@@ -32,6 +32,7 @@ k:キーの数
 
 ` int fuga = 1; `
 
+複数行に亘るコードの記述はバッククォート3つで囲う
 ```python
 hello = "Hello"
 world = "World"

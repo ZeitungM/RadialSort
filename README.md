@@ -15,7 +15,7 @@ k:キーの数
 <https://ja.wikipedia.org/wiki/%E5%9F%BA%E6%95%B0%E3%82%BD%E3%83%BC%E3%83%88>
 
 ## プロジェクトページ
-<http://zeitungm.github.io/RadialSort/>
+<http://zeitungm.github.io/RadialSort/>  
 プロジェクトページのURLって、リポジトリのページからリンクに飛べたりしないんだろうか？
 
 ---
@@ -43,5 +43,9 @@ world = "World"
 exclamation = "!"
 print hello, world, exclamation
 ```
+
+改行をするには末尾にスペースを2つ以上記述すればいいのかい  
+凝視しないとわからないね
+
 ### 参考
 [Markdownで行こう！](https://gist.github.com/wate/7072365)
